@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="177dp"
+        android:layout_height="157dp"
+        app:srcCompat="@drawable/common_google_signin_btn_icon_dark"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tvUserEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Email"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/signOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_sign_out"
+        android:layout_below="@+id/tvUserEmail"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/deleteAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_below="@id/signOut"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/openMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Report"
+        android:layout_below="@id/deleteAccount"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>
