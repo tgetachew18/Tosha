@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "974186948394",
+    "firebase_url": "https://tosha-7b614.firebaseio.com",
+    "project_id": "tosha-7b614",
+    "storage_bucket": "tosha-7b614.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974186948394:android:f9ad4292c6329a15",
+        "android_client_info": {
+          "package_name": "com.tosha.tsha.tosha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974186948394-3cvqp7nci1scgjebu1em4i13c6bmtpcf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tosha.tsha.tosha",
+            "certificate_hash": "73b2b805792c4984a2c4c8f05738c7af9a327de6"
+          }
+        },
+        {
+          "client_id": "974186948394-g8qd1jhv36599oiff487fm2u7tb4dt8d.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "974186948394-g8qd1jhv36599oiff487fm2u7tb4dt8d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACi-Z9IzTvxiiK5ptBF9CNcaKnJ6yN3m4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974186948394-g8qd1jhv36599oiff487fm2u7tb4dt8d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
